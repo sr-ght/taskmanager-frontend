@@ -43,3 +43,19 @@ Config archive .angular-cli.json
             "../node_modules/bootstrap/dist/js/bootstrap.min.js",
             "../node_modules/jquery/dist/jquery.min.js"
         ],
+
+
+## Added navbar
+
+Config archive app.module.ts
+
+        import { NavbarComponent } from "./navbar/navbar.component";
+        ...
+
+        declarations: [
+            AppComponent,
+            NavbarComponent
+        ],
+
+
+
