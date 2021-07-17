@@ -45,7 +45,7 @@ Config archive .angular-cli.json
         ],
 
 
-## Added navbar
+## Added navbar and tasks
 
 Config archive app.module.ts
 
@@ -54,7 +54,8 @@ Config archive app.module.ts
 
         declarations: [
             AppComponent,
-            NavbarComponent
+            NavbarComponent,
+            TasksComponent
         ],
 
 
