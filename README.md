@@ -26,3 +26,20 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Added bootstrap and jquery
+
+        npm install bootstrap --save
+        npm install jquery --save
+
+Config archive .angular-cli.json
+
+        "styles": [
+            "styles.css",
+            "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
+        "scripts": [
+            "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+            "../node_modules/jquery/dist/jquery.min.js"
+        ],
