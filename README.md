@@ -58,5 +58,9 @@ Config archive app.module.ts
             TasksComponent
         ],
 
+## Import task model in tasks component
+
+        import { Task } from "./shared/tasks.model";
+
 
 
