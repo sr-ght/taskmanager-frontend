@@ -50,6 +50,7 @@ Config archive .angular-cli.json
 Config archive app.module.ts
 
         import { NavbarComponent } from "./navbar/navbar.component";
+        import { TasksComponent } from "./tasks/tasks.component";
         ...
 
         declarations: [
