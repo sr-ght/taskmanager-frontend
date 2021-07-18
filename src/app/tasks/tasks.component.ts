@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
+
 import { Task } from "./shared/tasks.model";
 
 const TASKS: Array<Task> = [
@@ -18,11 +19,16 @@ const TASKS: Array<Task> = [
 
 export class TasksComponent implements OnInit{
     public tasks;
+    public selectedTask: Task;
 
     public constructor(){
     }
 
     public ngOnInit(){
         this.tasks = TASKS;
+    }
+
+    public onSelect(task: Task){
+        this.selectedTask = task;
     }
 }
